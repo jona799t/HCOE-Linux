@@ -27,3 +27,7 @@ Wine kan nemt installeres med din package manager.
 LoggerPro virker kun på 32-bit.  
 For at gøre det nemmere at håndtere dependencies, så kan det anbefaldes at bruge programmet Bottles til at holde styr på dit LoggerPro.  
 I bottles kan du også nemt installere de nødvendige skrifttyper, ved at installere "allfonts" og "lucon". 
+
+## MarvinSketch
+MarvinSketch er let tilgængelig for Debian- og RedHat-baserede distributioner. For andre systemer kan eksempelvis `debtap` (Arch) anvendes, eller installationen kan foretages manuelt.
+Programmet hentes her: https://download.chemaxon.com/marvin-sketch
