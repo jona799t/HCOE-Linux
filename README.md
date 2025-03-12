@@ -24,7 +24,7 @@ Gympakken til Linux kan hentes her: https://www.maplesoft.com/dk/MapleGym/index.
 
 ## LoggerPro
 LoggerPro understøttes ikke længere officielt på Linux. Derfor skal Wine bruges for at få det til at køre.  
-LoggerPro virker kun på 32-bit.  
+LoggerPro virker kun på 32-bit Wine.  
 For at gøre det nemmere at håndtere dependencies anbefales det at bruge programmet Bottles til at holde styr på dit LoggerPro.  
 I Bottles kan du også nemt installere de nødvendige skrifttyper ved at installere "allfonts" og "lucon".  
 ![image](https://github.com/user-attachments/assets/62c73a51-6937-4c3e-96a6-ea241a31dc0a)
