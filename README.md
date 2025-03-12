@@ -29,6 +29,9 @@ For at gøre det nemmere at håndtere dependencies anbefales det at bruge progra
 I Bottles kan du også nemt installere de nødvendige skrifttyper ved at installere "allfonts" og "lucon".  
 ![image](https://github.com/user-attachments/assets/62c73a51-6937-4c3e-96a6-ea241a31dc0a)
 
+## Solstice
+Man kan skærmdele ved at indtaste IP-adressen i browseren: https://www.youtube.com/watch?v=YczM-ak0Jfc
+
 ## ChemSketch
 ChemSketch fungerer godt med 64-bit Wine. Du skal blot sikre, at hele mappen med `setup.exe` læses af Wine, da mappens filer er nødvendige for installationen.  
 Under installationen kan fejlen "RPC server unavailable" dukke op, men denne kan blot ignoreres.  
