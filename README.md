@@ -1,4 +1,4 @@
-# HCOE-Linux
+# HCØ Linux
 En guide til Linux på HCØ.
 
 ## Maple
