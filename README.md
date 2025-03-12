@@ -26,12 +26,16 @@ LoggerPro er ikke længere understøttet native på Linux, og derfor skal der br
 Wine kan nemt installeres med din package manager.  
 LoggerPro virker kun på 32-bit.  
 For at gøre det nemmere at håndtere dependencies, så kan det anbefaldes at bruge programmet Bottles til at holde styr på dit LoggerPro.  
-I bottles kan du også nemt installere de nødvendige skrifttyper, ved at installere "allfonts" og "lucon". 
+I Bottles kan du også nemt installere de nødvendige skrifttyper, ved at installere "allfonts" og "lucon". 
+![image](https://github.com/user-attachments/assets/62c73a51-6937-4c3e-96a6-ea241a31dc0a)
 
 ## ChemSketch
 ChemSketch fungerer godt med 64-bit Wine. Man skal blot sikre, at hele mappen med `setup.exe` læses af Wine, da mappens filer er nødvendige for installationen.  
 Ved installationen popper fejlen "RPC server unavailable", men dette kan blot ignoreres.
+![image](https://github.com/user-attachments/assets/0aefea83-163d-4db4-a3dc-8c10bf7ed3e7)
 
 ## MarvinSketch
 MarvinSketch er let tilgængelig for Debian- og RedHat-baserede distributioner. For andre systemer kan eksempelvis `debtap` (Arch) anvendes, eller installationen kan foretages manuelt.
 Programmet hentes her: https://download.chemaxon.com/marvin-sketch
+![image](https://github.com/user-attachments/assets/e8ce547c-0e89-4a26-a863-af7a4582b107)
+
