@@ -42,3 +42,31 @@ MarvinSketch er let tilgængelig for Debian- og RedHat-baserede distributioner. 
 Programmet hentes her: https://download.chemaxon.com/marvin-sketch
 ![image](https://github.com/user-attachments/assets/e8ce547c-0e89-4a26-a863-af7a4582b107)
 
+## DSNWinbeam
+DSNWinbeam kan kun hentes fra Microsoft Store, hvilket gør det besværligt at finde exe-filen.  
+Først skal du gå til https://store.rg-adguard.net/.  
+
+Her skal du indtaste URL'en til DSNWinbeam: https://apps.microsoft.com/detail/9pc56zjsrdcf
+
+Derefter kan du hente den ønskede version. Sørg for at filen ender på `.appxbundle`.  
+
+![image](https://github.com/user-attachments/assets/4e7c2b40-aa40-4861-9b96-3f3fd09b4c8d)  
+
+På Chromium-baserede browsere er det ikke umiddelbart muligt at downloade filen direkte. Du skal i stedet højreklikke på linket og vælge `Åbn link i inkognitofane`.  
+
+Når filen er hentet, skal den udpakkes:  
+```
+unzip -d DSNWinbeam DSNWinbeam.DSNWinbeam_x.x.x.x_neutral.AppxBundle
+```
+
+Inde i mappen bør der ligge to filer:
+ * `DSNWinbeamPackage_x.x.x.x_x64.appx`
+ * `DSNWinbeamPackage_x.x.x.x_x86.appx`
+
+Da min "Skole" Bottle allerede er 32-bit, valgte jeg x86-mappen:
+```
+unzip -d x86 DSNWinbeamPackage_x.x.x.x_x86.appx
+```
+
+Nu kan exe-filen findes i mappen: `x86/DSNWinbeam/DSNWinbeam.exe`
+![image](https://github.com/user-attachments/assets/26638781-e00a-4cee-8b12-3e0e78bbdc36)
